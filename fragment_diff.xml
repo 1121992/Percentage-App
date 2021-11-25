@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiffFragment">
+
+    <EditText
+        android:id="@+id/before"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="أدخل السعر الاول "
+        android:inputType="number"
+        android:textAlignment="center" />
+
+
+    <EditText
+        android:id="@+id/after"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="37dp"
+        android:hint="أدخل السعر الثاني "
+        android:inputType="number"
+        android:padding="12dp"
+        android:textAlignment="center" />
+
+
+
+</FrameLayout>

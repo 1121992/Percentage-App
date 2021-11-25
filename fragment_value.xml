@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ValueFragment">
+
+    <EditText
+        android:textAlignment="center"
+        android:id="@+id/before"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="أدخل السعر قبل الخصم "/>
+
+
+
+    <EditText
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginTop="35dp"
+        android:id="@+id/after"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="أدخل السعر بعد الخصم"/>
+
+
+    <EditText
+
+        android:textAlignment="center"
+        android:padding="12dp"
+        android:layout_marginTop="70dp"
+        android:inputType="number"
+        android:id="@+id/per"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="أدخل نسبة الخصم "/>
+
+
+
+
+
+
+
+
+</FrameLayout>
